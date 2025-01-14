@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "task-manager"
+version = "0.1.0"
+description = "Gerenciador de tarefas"
+authors = ["Dhiuly Silva <dhiulysoaresds@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+djangorestframework = "^3.15.2"
+drf-spectacular = "^0.28.0"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
